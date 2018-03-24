@@ -1,0 +1,24 @@
+#datingphoto
+{
+    min-height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#privacynote
+{
+    padding: 10px;
+    margin: 10px;
+}
+#profilephoto
+{
+    max-height: 200px;
+    max-width: 250px;
+}
+
+body{
+    background-image: url("../images/loginPic.jpg");
+}
+
+th {
+    cursor: pointer;
+}

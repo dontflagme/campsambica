@@ -1,0 +1,57 @@
+body{
+    background-image: url("../images/loginPic.jpg");
+    /*background-color:#FFF;*/
+}
+
+
+
+option{
+   
+    
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.1;
+}
+
+#contentSection{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 25px;
+}
+.form-group{
+    border: none;
+}
+.form-control{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: green;
+    box-shadow: 0 0 20px 100px #efefef inset;
+    
+}
+
+.form-control:active, .form-control:hover {
+  background-color: black;
+}
+.input-group-addon{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.col-md-2{
+    margin-right: 10px;
+    padding: 0px;
+    padding-right: 30px;
+}
+
+label{
+    color: #FFF;
+}
+
+#camperHeading{
+    color: #fff;
+    text-align: center;
+}

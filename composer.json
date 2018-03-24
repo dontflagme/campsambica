@@ -1,0 +1,16 @@
+{
+    "name": "Kevin/atlasFinal",
+    "authors": [
+        {
+            "name": "Kevin Nguyen",
+            "email": "Kevin.Nguyen0509@gmail.com"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree-core": "dev-master",
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "autoload": {	
+        "classmap": ["model/", "classes/"]    
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+    <!---
+    Author: Brian Saylor
+    10/03/2017
+    User selects things that interest them--->
+
+        <html>
+        
+            <head>
+                
+                <title>Camp Sambica Sign up</title>           
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta charset="utf-8">
+                <meta name="description" content="">
+                <meta name="author" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="dating/css/stylesheet.css" type="text/css" rel="stylesheet"/>
+                 
+                <!-- bootstrap -->
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+                      rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                 
+                <!--[if lt IE 9]>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+                <![endif]-->
+                <link rel="shortcut icon" href="">
+              
+                
+            </head>
+            
+            <body>
+                
+            <nav class="navbar navbar-default" id="nav">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <p>Camp Sambica</p>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li ><a href="./">Home</a></li>
+                        <li class="active"><a href="./information_form">New Camper</a></li>
+                        <li><a href="./activities">Edit Activities</a></li>
+                        <li><a href="./displaymembers">View Members</a></li>
+                        <li><a href="./logout">Logout</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+                
+                
+                <div class="container">
+                    <form action="./results" method="post" class="form-horizontal">
+                        <div class="row">
+                            
+                            <div class="page-header">
+                                <h1>Activities</h1>                            
+                            </div>
+                                
+                                <h4>In-door Activities</h4>    
+                                <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="inDoorInterests[]" value="Arts and Crafts">Arts and Crafts</label>
+                                        </div>
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="inDoorInterests[]" value="WoodWorking">WoodWorking</label>
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+                                
+                                <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="inDoorInterests[]" value="Movies">Movies</label>
+                                        </div>
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="inDoorInterests[]" value="Cooking">Cooking</label>
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+                                    
+                                <div class="container-fluid col-md-3">
+                                        
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                  <label><input type="checkbox" name="inDoorInterests[]" value="Board Games">Board Games</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                  <label><input type="checkbox" name="inDoorInterests[]" value="Playing Cards">Playing Cards</label>
+                                            </div>
+                                        </div>
+                                            
+                                </div>
+                                    
+                                <div class="container-fluid col-md-3">
+                                        
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                  <label><input type="checkbox" name="inDoorInterests[]" value="Ice Cream Social">Ice Cream Social</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                  <label><input type="checkbox" name="inDoorInterests[]" value="Video Games">Video Games</label>
+                                            </div>
+                                        </div>
+                                            
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                            <h4>Out-door Activities</h4>
+                            <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Hiking">Hiking</label>
+                                        </div>
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Walking">Walking</label>
+                                        </div>
+                                    </div>
+                                        
+                            </div>
+                                
+                            <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Biking">Biking</label>
+                                        </div>
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Climbing">Climbing</label>
+                                        </div>
+                                    </div>
+                                        
+                            </div>
+                                
+                            <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Swimming">Swimming</label>
+                                        </div>
+                                    </div>
+                                        
+                            </div>
+                            
+                            <div class="container-fluid col-md-3">
+                                    
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                              <label><input type="checkbox" name="outDoorInterests[]" value="Collection">Collection</label>
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+                        </div>
+                            <div class="col-md-12">
+                                    <input class="btn btn-info btn-sm pull-right" 
+                                    type="submit" value="Next >">
+                            </div> 
+          
+                    </form>                        
+                         
+                    
+                </div>
+                
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.min.js"></script>
+                
+            </body>
+        
+        </html>

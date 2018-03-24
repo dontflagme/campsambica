@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <!---
+    Author: Brian Saylor
+    10/03/2017
+    User enters email and who they are seeking--->
+
+        <html>
+        
+            <head>
+                
+                <title>Camp Sambica Sign up</title>           
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta charset="utf-8">
+                <meta name="description" content="">
+                <meta name="author" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="/328/dating/styles/stylesheet.css" type="text/css" rel="stylesheet"/>
+                 
+                <!-- bootstrap -->
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+                      rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                 
+                <!--[if lt IE 9]>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+                <![endif]-->
+                <link rel="shortcut icon" href="">
+                
+            </head>
+            
+            <body>
+                
+                <nav class="navbar navbar-default" id="nav">
+                    <div class="container-fluid">
+                        <div class="navbar-brand">
+                            <p>Camp Sambica Sign up</p>
+                        </div>
+                    </div>
+                </nav>
+                
+
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="page-header">
+                            <h1>Profile</h1>                            
+                        </div>
+                        
+                        <form action="./interest_form" method="post" class="form-horizontal">
+                                <div class="container-fluid col-md-6">
+                                    
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input class="form-control" name="email" type="email" id="email" placeholder="email@gmail.com">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="selectSite">State</label>
+                                            <select class="form-control" name="state" id="selectSite">
+                                                <option>Choose...</option>
+                                                <option value="ALABAMA">Alabama</option>
+                                                <option value="ALASKA">Alaska</option>
+                                                <option value="ARIZONA">Arizona</option>
+                                                <option value="ARKANSAS">Arkansas</option>
+                                                <option value="CALIFORNIA">California</option>
+                                                <option value="COLORADO">Colorado</option>
+                                                <option value="CONNECTICUT">Connecticut</option>
+                                                <option value="DELAWARE">Delaware</option>
+                                                <option value="DISTRICT OF COLUMBIA">District Of Columbia</option>
+                                                <option value="FLORIDA">Florida</option>
+                                                <option value="GEORGIA">Georgia</option>
+                                                <option value="HAWAII">Hawaii</option>
+                                                <option value="IDAHO">Idaho</option>
+                                                <option value="ILLINOIS">Illinois</option>
+                                                <option value="INDIANA">Indiana</option>
+                                                <option value="IOWA">Iowa</option>
+                                                <option value="KANSAS">Kansas</option>
+                                                <option value="KENTUCKY">Kentucky</option>
+                                                <option value="LOUISIANA">Louisiana</option>
+                                                <option value="MAINE">Maine</option>
+                                                <option value="MARYLAND">Maryland</option>
+                                                <option value="MASSACHUSETTS">Massachusetts</option>
+                                                <option value="MICHIGAN">Michigan</option>
+                                                <option value="MINNESOTA">Minnesota</option>
+                                                <option value="MISSISSIPPI">Mississippi</option>
+                                                <option value="MISSOURI">Missouri</option>
+                                                <option value="MONTANA">Montana</option>
+                                                <option value="NEBRASKA">Nebraska</option>
+                                                <option value="NEVADA">Nevada</option>
+                                                <option value="NEW HAMPSHIRE">New Hampshire</option>
+                                                <option value="NEW JERSEY">New Jersey</option>
+                                                <option value="NEW MEXICO">New Mexico</option>
+                                                <option value="NEW YORK">New York</option>
+                                                <option value="NORTH CAROLINA">North Carolina</option>
+                                                <option value="NORTH DAKOTA">North Dakota</option>
+                                                <option value="OHIO">Ohio</option>
+                                                <option value="OKLAHOMA">Oklahoma</option>
+                                                <option value="OREGON">Oregon</option>
+                                                <option value="PENNSYLVANIA">Pennsylvania</option>
+                                                <option value="RHODE ISLAND">Rhode Island</option>
+                                                <option value="SOUTH CAROLINA">South Carolina</option>
+                                                <option value="SOUTH DAKOTA">South Dakota</option>
+                                                <option value="TENNESSEE">Tennessee</option>
+                                                <option value="TEXAS">Texas</option>
+                                                <option value="UTAH">Utah</option>
+                                                <option value="VERMONT">Vermont</option>
+                                                <option value="VIRGINIA">Virginia</option>
+                                                <option value="WASHINGTON">Washington</option>
+                                                <option value="WEST VIRGINIA">West Virginia</option>
+                                                <option value="WISCONSIN">Wisconsin</option>
+                                                <option value="WYOMING">Wyoming</option>
+                                            </select>
+                                        </div>
+
+                                </div>         
+                                <div class="container-fluid col-md-6">
+
+                                </div>
+                                       
+                                <div class="col-md-12">
+                                    <input class="btn btn-info btn-sm pull-right" 
+                                    type="submit" value="Next >">
+                                </div> 
+                                        
+                        </form>
+
+                    </div>
+                </div>
+                
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.min.js"></script>
+                
+            </body>
+        
+        </html>
